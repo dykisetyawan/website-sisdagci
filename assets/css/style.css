@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header	 {
+	max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all 0.5s ease;
+}
+
+#header1 {
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all 0.5s ease;
+
+}
+
+#header1 h1 {
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 27px;
+    color: white;
+}
+
+.navigasi {
+    background-color: #14C38E;
+    box-shadow: 0 1px 6px rgba(50, 56, 70, 0.1);
+    transition: all 0.5s ease;
+}
+
+nav{
+    flex-basis: 90%;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    display: inline-block;
+    padding: 25px 0 25px 30px;
+}
+
+nav li a{
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+
+nav li a:hover{
+    border-bottom: 2px solid #B8F1B0;
+}
+
+#menu{
+    display: none;
+}
+
+#menu img{
+    width: 20px;
+}
+
+.showBackground{
+    background-color: #14C38E;
+}
+
+#header2{
+    max-width: 1366px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#14C38E, #B8F1B0);  
+}
+
+.konten-header {
+    padding-top: 170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-konten {
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    float: left;
+}
+
+.left-konten img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.left-konten img:hover {
+    padding: 10px 35px;
+}
+
+
+.right-konten {
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+    float: right;
+}
+
+.right-konten h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.right-konten p {
+    padding-bottom: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-login a{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    background-color: #B8F1B0;
+    border: 2px solid #B8F1B0;
+    border-radius: 32px;
+    padding: 10px 25px;
+    transition: all 0.5s ease;
+}
+
+.btn-login a:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #B8F1B0;
+}
+
+.btn-diagnosa a{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    border-radius: 32px;
+    background-color: #14C38E;
+    border: 2px solid #14C38E;
+    padding: 12px 40px;
+    transition: all 0.5s ease;
+}
+
+.btn-diagnosa a:hover{
+    padding: 12px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #14C38E;
+}
+
+#fitur{
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    width: 100%;
+    height: 40vh;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+#artikel{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1366px;
+    width: 100%;
+    height: 70vh;
+    padding-bottom: 20px;
+}
+
+#diagnosa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1366px;
+    width: 100%;
+    height: 70vh;
+    padding-top: 320px;
+    padding-bottom: 250px;
+}
+
+#tentang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1366px;
+    width: 100%;
+    height: 70vh;
+    padding-top: 100px;
+    padding-bottom: 30px;  
+}
+
+main{
+    max-width: 1366px;
+    width: 100%;
+}
+
+#konten{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#artikel, #tentang{
+    flex-basis: 100%;
+}
+
+#artikel header, #diagnosa header, #tentang header{
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#artikel h1, #diagnosa h1, #tentang h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    color: #292929;
+    padding-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+.line-header{
+    background-color: #B8F1B0;
+    height: 3px;
+    margin-top: 8px;
+}
+
+/* ----------Fitur--------------------- */
+#fitur {
+    padding-top: 20px;
+}
+
+#fitur article {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fitur article section{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+#fitur article section figure{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fitur img {
+    height: 130px;
+}
+
+.detail-fitur {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-fitur h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+    color: #292929;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.detail-fitur p{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: #292929;
+    text-align: left;
+}
+/* ----------End Fitur---------------- */
+
+/* -----------Artikel start------------- */
+
+#artikel article{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#artikel article section{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+#artikel section figure{
+    flex-basis: 100%;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#artikel section figure img{
+    width: 100%;
+}
+
+#artikel section {
+    flex-basis: 100%;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #292929;
+}
+
+#artikel section p{
+    flex-basis: 100%;
+    padding-top: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: justify;
+    color: #292929;
+}
+
+#artikel span {
+    margin-top: 10px;
+}
+
+#artikel span a, #diagnosa footer a  {
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    padding: 10px 25px;
+    background-color: #B8F1B0;
+    transition: all 0.5s ease;
+}
+
+
+#artikel span a:hover{
+    padding: 10px 35px;
+}
+
+.fit-img {
+    width: 100px;
+    height: 160px;
+    object-fit: cover;
+   	object-position: center
+}
+
+/* -----------Artikel End-------------- */
+
+/* -----------Diagnosa Start----------- */
+
+#diagnosa article {
+    flex-basis: 100%;
+   
+}
+
+#diagnosa figure {
+    width: 40%;
+    float: left;
+}
+
+#diagnosa article figure img{
+    width: 90%;
+}
+
+#diagnosa .box-petunjuk {
+    width: 60%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E3FCBF;
+    padding: 40px;
+    float: left;
+}
+
+#diagnosa .box-petunjuk span {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #292929;
+    padding-bottom: 25px;
+}
+
+#diagnosa .box-petunjuk p{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    color: #292929;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+#diagnosa footer{
+    padding-top: 5px;
+}
+
+#diagnosa footer a:hover{
+    padding: 10px 35px;
+}
+/* -----------Diagnosa End------------- */
+
+/* ----------Tentang Start------------- */
+#tentang .kontainer {
+    flex-basis: 100%;
+}
+
+#tentang .card-tentang {
+    float: left;
+    width: 65%;
+}
+
+#tentang .card-profil {
+    padding-left: 25px;
+    float: right;
+	width: 35%;
+}
+
+.img-tentang {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-profil {
+    width: 100%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#tentang h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+#tentang article  {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+}
+
+#tentang article p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #292929;
+    padding-bottom: 25px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+#tentang article ul, li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #292929;
+    padding-left: 25px;
+    line-height: 140%;
+    text-align: left;
+}
+
+#tentang aside article p, q{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #292929;
+    text-align: justify;
+}
+
+/* ----------Tentanf End-------------- */
+
+main+footer{
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border-top: 1px solid rgba(41, 41, 41, 0.1);
+}
+
+main+footer {
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
+}
+
+#author{
+    display: flex;
+    align-items: center;
+}
+
+#author p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #292929;
+}
+
+/* -----------animate on transisi--------- */
+.animate{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.7s ease;
+  }
+  
+
+  .tampil {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+  }

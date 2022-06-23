@@ -1,0 +1,447 @@
+/* For Tablet */
+@media screen and (max-width: 1000px){
+
+    #fitur {
+        flex-basis: 50%;
+    }
+
+
+    #fitur article section {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 20px;
+    }
+
+    #header2{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .konten-header {
+        padding-top: 20%;
+        flex-direction: column;
+    }
+
+   .left-konten {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .left-konten img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .right-konten {
+        width: 100%;
+        padding: 15px;
+    }.konten-header {
+        padding-top: 20%;
+        flex-direction: column;
+    }
+
+   .left-konten {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .left-konten img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .right-konten {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .right-konten h1 {
+        font-family: 'Karla', sans-serif;
+        font-size: 26px;
+        color: white;
+        text-align: left;
+    }
+    
+    .right-konten p {
+        padding-bottom: 50px;
+        font-size: 19px;
+        color: white;
+    }.konten-header {
+        padding-top: 20%;
+        flex-direction: column;
+    }
+
+   .left-konten {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .left-konten img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .right-konten {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .right-konten h1 {
+        font-family: 'Karla', sans-serif;
+        font-size: 26px;
+        color: white;
+        text-align: left;
+    }
+    
+    .right-konten p {
+        padding-bottom: 50px;
+        font-size: 19px;
+        color: white;
+    }
+
+    .right-konten h1 {
+        font-family: 'Karla', sans-serif;
+        font-size: 26px;
+        color: white;
+        text-align: left;
+    }
+    
+    .right-konten p {
+        padding-bottom: 50px;
+        font-size: 19px;
+        color: white;
+    }
+
+    #artikel{
+        padding-top: 70px;
+    }
+
+    #artikel article section{
+        flex-basis: 47%;
+        padding-bottom: 50px;
+    }
+
+    #artikel section h3{
+        font-size: 14pt;
+    }
+
+    #artikel section p {
+        font-size: 12pt;
+    }
+
+    #artikel article section{
+        flex-basis: 100%;
+    }  
+
+    #tentang {
+        margin-top: 80px;
+    }
+
+    #tentang .card-tentang {
+        width: 100%;
+    }
+
+    #tentang .card-profil {
+        padding-top: 20px;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #tentang article p {
+        font-size: 12pt;
+    }
+
+    #tentang article ul, li {
+        font-size: 12pt;
+    }
+
+    #tentang aside article p, q {
+        font-size: 12pt;
+    }
+
+
+
+}
+
+@media screen and (max-width: 910px){
+
+    #fitur {
+        flex-basis: 50%;
+    }
+
+
+    #fitur article section {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 20px;
+    }
+
+    #header2{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .konten-header {
+        padding-top: 20%;
+        flex-direction: column;
+    }
+
+   .left-konten {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .left-konten img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .right-konten {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .right-konten h1 {
+        font-family: 'Karla', sans-serif;
+        font-size: 26px;
+        color: white;
+        text-align: left;
+    }
+    
+    .right-konten p {
+        padding-bottom: 50px;
+        font-size: 19px;
+        color: white;
+    }
+
+    #artikel{
+        padding-top: 70px;
+    }
+
+    #artikel article section{
+        flex-basis: 47%;
+        padding-bottom: 50px;
+    }
+
+    #artikel section h3{
+        font-size: 14pt;
+    }
+
+    #artikel section p {
+        font-size: 12pt;
+    }
+
+    #artikel article section{
+        flex-basis: 100%;
+    }  
+
+    #tentang {
+        margin-top: 80px;
+    }
+
+    #tentang .card-tentang {
+        width: 100%;
+    }
+
+    #tentang .card-profil {
+        padding-top: 20px;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #tentang article p {
+        font-size: 12pt;
+    }
+
+    #tentang article ul, li {
+        font-size: 12pt;
+    }
+
+    #tentang aside article p, q {
+        font-size: 12pt;
+    }
+
+
+}
+
+/* For Mobile */
+@media screen and (max-width: 693px){
+    #header1{
+        padding: 10px 25px;
+        flex-wrap: wrap;
+    }
+
+    #menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav{
+        flex-basis: 100%;
+        display: none;
+    }
+
+    nav ul{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    nav li a{
+        padding: 20px 100%;
+    }
+
+    nav.show{
+        display: flex;
+    }
+
+    nav li a:hover{
+        background-color: #0e9c72;
+    }
+
+    .btn-login {
+       margin: 5%;
+    }
+
+    #header2{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .konten-header {
+        padding-top: 20%;
+        flex-direction: column;
+    }
+
+   .left-konten {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .left-konten img {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .right-konten {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .right-konten h1 {
+        font-family: 'Karla', sans-serif;
+        font-size: 26px;
+        color: white;
+        text-align: left;
+    }
+    
+    .right-konten p {
+        padding-bottom: 50px;
+        font-size: 19px;
+        color: white;
+    }
+
+    #konten{
+        padding: 0 30px;
+    }
+    
+
+    #fitur {
+        flex-basis: 50%;
+    }
+
+
+    #fitur article section {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 20px;
+    }
+
+
+    #artikel{
+        padding-top: 70px;
+    }
+
+    #artikel article section{
+        flex-basis: 47%;
+        padding-bottom: 50px;
+    }
+
+    #artikel section h3{
+        font-size: 14pt;
+    }
+
+    #artikel section p {
+        font-size: 12pt;
+    }
+
+    #artikel article section{
+        flex-basis: 100%;
+    }  
+
+    #diagnosa {
+        margin-top: 60px;
+    }
+
+    #diagnosa article figure {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #diagnosa .box-petunjuk {
+        width: 100%;
+        padding: 25px;
+    } 
+
+    #diagnosa .box-petunjuk span {
+        font-size: 15pt;
+    }
+
+    #diagnosa .box-petunjuk p {
+        padding-top: 10px;
+        font-size: 12pt;
+    }
+
+    #tentang {
+        margin-top: 80px;
+    }
+
+    #tentang .card-tentang {
+        width: 100%;
+    }
+
+    #tentang .card-profil {
+        padding-top: 20px;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #tentang article p {
+        font-size: 12pt;
+    }
+
+    #tentang article ul, li {
+        font-size: 12pt;
+    }
+
+    #tentang aside article p, q {
+        font-size: 12pt;
+    }
+
+
+}
